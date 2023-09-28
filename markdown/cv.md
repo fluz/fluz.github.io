@@ -12,24 +12,26 @@ Hackerrank: [https://www.hackerrank.com/fernando_luz]( https://www.hackerrank.co
 
 ## About me
 
-**15+ years** of developing and working in projects led me to have hands-on experience solving **complex problems** in software development using several languages and frameworks across a wide range of companies, including startups, oil and gas industries, educational institutions, and research labs. Driven **self-starter** and **fast learner**, always supporting my development teams with **top-notch coding skills**.
-I enjoy the challenge to maintain **team cooperation** to achieve objectives/deliveries in the process development. I strongly believe that **sharing knowledge** is a key point in a dev team, and I do my best to write clear and good code and implement best practices.
+With over **16+ years** of experience in software development, I've evolved from a proficient Software Engineer into an accomplished **Engineering Manager**. My journey has encompassed a wide array of projects and industries, from startups to oil and gas companies, educational institutions, and research labs.
+
+As a **self-driven**, **quick learner**, and **top-notch coder**, I've always been at the forefront of **solving complex problems** and supporting my **development teams**. This journey culminated in my transition to an Engineering Manager role.
+
+In this capacity, I thrive on maintaining **team collaboration** to achieve project objectives. I firmly believe in the importance of **knowledge sharing** and consistently promote **clear**, **high-quality coding** and **best practices**. My transformation reflects my passion for talent development, driving impactful projects, and contributing to organizational success at the intersection of technology and engineering.
 
 ## Experience
 
-### *Engineering Manager* --- Talkdesk, 2022 - Present
+### *Engineering Manager* --- Talkdesk, 2021 - Present
 
-Management of the **HLS - Healthcare & Life Science stream** and **Support stream** at Industries BU. (manager of **10+** Individual Contributors from entry levels to leads)
+As the Engineering Manager at Industries BU, I have overseen a comprehensive portfolio, which includes **Healthcare Experience Cloud (HEC)**, **Automated Notifications (AN)**, and **Agent Flows (AF)** products, along with the dedicated **QA** team. In this capacity, I've had the privilege of leading and mentoring a team of **13+ Individual Contributors**, ranging from entry-level professionals to team leads.
 
-The HLS stream is responsible for **Healthcare Experience Cloud** development, integrating healthcare call centers with unified patient information.
-
-The Support stream teams are composed of two squads. The **Cross Industries** team implements tools and integrations to be used in other projects in our BU. The **QA team** provides a framework and procedure to validate the quality of our products.
+I've not only managed these **critical products** and teams but also **championed** a culture of innovation, **collaboration**, and **continuous improvement**. My role has been integral in driving our organization's commitment to delivering **high-quality** solutions and **fostering** a dynamic and **forward-thinking** work environment.
 
 **Achievements / Tasks:**
 
-* Release of Agent Flows project (integration between EDP, Talkdesk and Zingtree) in Summer'22 release in 7 months (team creation, backlog organization and implementation);
-* Restructure the **QA implementation process**, providing some guidance how support the teams and organizing the backlog;
-* Define and implement the 1:1 weekly meetings and growth plans for each Indivudual Contributors and promote the link between each IC to the Talkdesk V2M2 (Vision, Value, Method and Metrics).
+* The **HEC** has been a cornerstone of our efforts, involving the seamless integration of healthcare call centers with unified patient information. This initiative has enabled more efficient and informed patient interactions.
+* The **AN** has been instrumental in enhancing communication, focusing on the definition of rules and events to schedule and deliver notifications. These notifications are triggered by complex rules, ensuring timely and precise interactions with our clients.
+* The **AF** has revolutionized our customer support processes by empowering agents with scripted guidance during customer calls. This feature has significantly improved the efficiency and effectiveness of our support teams.
+* The **QA team** under my guidance has been instrumental in maintaining and elevating the quality of our products. We have established a robust framework and procedures to rigorously validate product quality, ensuring that our solutions meet and exceed industry standards.
 
 ### *Senior Software Engineer* --- Talkdesk, 2021 - 2022
 
@@ -51,10 +53,8 @@ I was one of the founders in the Meetup internal group in Altran PT.
 **Achievements / Tasks:**
 
 * Delivered first version for RYUN (Universal Pick and Place Robot) component, with **all features planned** for this version;
-* Added unit tests for RYUN component with **100% of code coverage**;
-* Contributed with the RYAU component **migration** to legacy version;
-* Generated an investigation for RYAU autotesters, where I found **65% fake tests** (tests without implementation);
-* Achieved with success the first phase for UTTK to ATTEST migration **(around 400 tests in 10 weeks)**.
+* Added unit tests for RYUN component with **100% of code coverage** and contributed with the RYAU component **migration** to legacy version;
+* Successfully achieved the first phase of the UTTK to ATTEST migration **(around 400 tests in 10 weeks, instead of the initial expectation of 6 months)**.
 
 ### *IT Manager* --- Technomar Engineering, 2016 - 2018
 
@@ -66,7 +66,7 @@ I was one of the founders in the Meetup internal group in Altran PT.
 
 * Enhanced in communication channel using the phonon framework, with gains in **15% speedup** and improve the code maintainability;
 * Redesigned the database in MongoDB, with a **definition of a schema** to be use in DB, and implemented a unified access library to access the data;
-* Orchestrated the **full delivery** of new simulation station at Technomar office, providing a simulator with 360 degrees immersion.
+* Orchestrated the **full delivery** of new simulation station at Technomar office, providing a simulator with 360 degrees immersion;
 * Instituted **Gitlab** as tool to obtain code metrics, and manage the bugs, new features, backlog and milestone control for the team and the founders.
 
 ### *Researcher / HPC Software Engineer* --- Numerical Offshore Tank, 2008 - 2016
@@ -77,12 +77,10 @@ I also worked in others several projects, including the first version of **vesse
 **Achievements / Tasks:**
 
 * Optimized parallel execution of the numerical solver in the cluster environment saving around **35% in resources** using my Ph.D. research;
-* Minimized around **10% the time execution** in the standalone version of the numerical solver using OpenMP;
-* Reduced in order to **60% the storage space** with the output results of the application using a binary format;
-* Championed and implemented a **cross compilation** in Windows and Linux environment with CMake;
+* Minimized around **10% the time execution** in the standalone version of the numerical solver using OpenMP and implemented a **cross compilation** in Windows and Linux environment with CMake;
 * Introduced a **MPI communication** instead pure socket, providing more robustness in the communication channel;
-* Championed the use of *tests in development* flow to increase the development quality;
-* Built an initial **CI** with (CDash and CTest) to check the repository integrity.
+* Reduced in order to **60% the storage space** with the output results of the application using a binary format;
+* Championed the use of *tests in development* flow to increase the development quality and built an initial **CI** with (CDash and CTest) to check the repository integrity.
 
 ### *Graduate Full Professor* --- Paulista University, 2011 - 2016
 
