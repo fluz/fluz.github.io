@@ -1,0 +1,186 @@
+# Fernando Luz's Resume
+
+## Contact information
+
+-----
+Email:      [prof.fernando.luz@gmail.com](mailto:prof.fernando.luz@gmail.com)
+LinkedIn:   [https://www.linkedin.com/in/f-luz/]( https://www.linkedin.com/in/f-luz/ )
+GitHub:     [https://github.com/fluz]( https://github.com/fluz )
+Twitter:    [https://twitter.com/f_luz]( https://twitter.com/f_luz )
+Hackerrank: [https://www.hackerrank.com/fernando_luz]( https://www.hackerrank.com/fernando_luz )
+-----
+
+## About me
+
+Engineering Manager with 18+ years of experience leading platform transformations and scaling engineering organizations in high-complexity environments.
+
+I operate at the intersection of architecture and execution: leading teams through system migrations (monolith to microservices), improving delivery predictability, and raising engineering quality standards at scale.
+
+My focus is turning engineering effort into business impact: reducing latency, increasing delivery speed, and enabling teams to operate with greater ownership and autonomy.
+
+Background across distributed systems, backend platforms, and high-performance computing allows me to navigate from deep technical decisions to organizational outcomes, consistently improving scalability, reliability, and execution confidence.
+
+## Experience
+
+### *Engineering Lead* --- AUTODOC, Apr/2024 - Present
+
+Leading the PDP (Product Detail Page) team through a transition from monolithic architecture to an event-driven microservices ecosystem, owning technical direction and execution for a high-traffic platform.
+
+Driving architectural decisions, delivery practices, and operational standards to enable scalable system evolution, clearer ownership boundaries, and faster, more reliable deployments across several teams.
+
+
+**Selected outcomes:**
+
+* Led the decomposition of PDP into microservices, enabling independent service ownership and contributing to systems handling (25k rps) while establishing a consistent and unified product data layer across domains.
+* Introduced event-driven data pipelines processing around 12M Kafka events/week, enabling downstream teams to consume product data asynchronously and reducing cross-service coupling.
+* Maintained stable latency (100ms) during architectural transition, preventing regressions in user experience while increasing system modularity and deployment independence.
+* Shifted quality ownership to engineering teams and established automated testing as a standard practice, increasing coverage from 25% to 70% and reducing reliance on manual QA across the development lifecycle.
+
+
+### *Engineering Manager* --- Talkdesk, 2022 - 2024
+
+Owned delivery and execution across a multi-product portfolio, aligning engineering efforts with customer value and operational reliability.
+
+Led three teams (10+ engineers), evolving team structure, ownership models, and execution practices to improve autonomy, alignment, and delivery throughput.
+
+Drove organizational improvements in quality, cross-team collaboration, and release readiness to enable more predictable and scalable delivery.
+
+
+**Selected outcomes:**
+
+* Drove adoption of automated testing practices across teams, increasing coverage from 50% to 80% and reducing production defects, enabling more predictable releases.
+* Established an end-to-end testing strategy within platform constraints, standardizing release validation and improving stability across multiple product areas.
+* Supported adoption of Agent Flows by strategic customers (e.g., EDP), contributing to product validation and reinforcing the platform's commercial viability.
+* Improved cross-team execution by redefining collaboration models between engineering, product, and QA, reducing delivery friction and enabling more efficient coordination across teams.
+
+
+### *Senior Software Engineer* --- Talkdesk, 2021 - 2022
+
+Owned end-to-end delivery of the first production-ready Financial Services platform, contributing to initial market entry and establishing the technical foundation for future expansion.
+
+
+**Selected outcomes:**
+
+* Delivered the first version of Visual IVR for Financial Services, enabling initial customer adoption and validating the product direction.
+* Reduced projected rollout costs by 75% by replacing a third-party frontend with an in-house solution, increasing control over delivery and reducing long-term dependency.
+* Accelerated adoption of engineering practices by delivering internal sessions on Functional Programming and performance testing (K6), increasing team capability and technical alignment.
+
+
+### *Senior Software Engineer* --- Capgemini Portugal [ASML Project], 2018 - 2021
+
+Delivered critical software components for the next-generation ASML lithography platform in a high-reliability environment, balancing feature delivery with testability and long-term maintainability.
+
+Led the Portugal team in expanding unit testing with a **gtest**-based framework, improved a robotics component through a robust **Variant Pattern**, and helped strengthen engineering culture by co-founding an internal Meetup group in Capgemini PT.
+
+
+**Selected outcomes:**
+
+* Delivered the first version of the RYUN (Universal Pick and Place Robot) component with **all planned features** and **100% code coverage**.
+* Accelerated the first phase of the UTTK / ATTEST migration by delivering **400 tests in 10 weeks** against an initial estimate of **24 weeks**.
+* Reduced migration risk in the RYAU component by auditing autotesters and identifying **65% fake tests** (tests without implementation).
+
+
+### *IT Manager* --- Technomar Engineering, 2016 - 2018
+
+Led a team of **6 Individual Contributors** responsible for simulator delivery and operational stability for the **Technomar Maritime Simulator**, balancing product commitments with reliability and execution discipline.
+
+Raised engineering maturity by introducing **Scrum**, **Test-Driven Development**, and **Git**, and by coaching the team toward stronger execution and code quality.
+
+Also initiated the certification plan with [DNV GL agency](https://www.dnvgl.com/) and contributed technically to the core hydrodynamic numerical model where that involvement improved simulator fidelity and performance.
+
+
+**Selected outcomes:**
+
+* Improved simulator communication performance by **15%** while also increasing maintainability through changes to the phonon-based communication channel.
+* Delivered a new simulation station end to end, enabling a simulator with 360-degree immersion.
+* Increased delivery transparency and work management discipline by instituting **GitLab** for metrics, bugs, features, backlog, and milestones.
+
+
+### *Researcher / HPC Software Engineer* --- Numerical Offshore Tank, 2008 - 2016
+
+Developed and optimized High-Performance Computing applications in the TPN laboratory using C++/C, Python, MPI/sockets, and bash on Linux and Windows.
+
+Combined research, performance engineering, testing practices, and system integration to improve scalability and reliability, and contributed to the creation of **SMH**, a finalist for the [2016 ANP Prize Award for Technological Innovation](http://www.anp.gov.br/pesquisa-desenvolvimento-inovacao/302-premio-anp-de-inovacao-tecnologica/edicoes-anteriores/888-premio-anp-de-inovacao-tecnologica-2016).
+
+
+**Selected outcomes:**
+
+* Reduced cluster resource usage by **35%** by optimizing parallel execution of the numerical solver based on my Ph.D. research.
+* Reduced execution time by **10%** with **OpenMP** improvements and implementation of **MPI** standards in the parallel version.
+* Improved repository integrity by championing a testing flow and building an initial **CI** setup with CDash and CTest.
+
+
+### *Graduate Full Professor* --- Paulista University, 2011 - 2016
+
+Graduate-level teaching and course execution across software engineering and computing topics, combining lectures, labs, assessments, and student mentoring.
+
+Supported hands-on learning through technical projects and clear evaluation criteria, helping students build practical understanding of software development.
+
+
+
+## Education
+
+### Ph.D. in Computing Engineering, *2015*
+
+**University:** University of São Paulo (USP)
+**Institute:** Polytechnic School
+**Theme**: Methodology for the execution of parallel applications based on BSP model with heterogeneous tasks
+
+### M.Sc. in Applied Physics, *2010*
+
+**University:** University of São Paulo (USP)
+**Institute:** Physics Institute of São Carlos
+**Theme**: Implementation of the MILC package in the study of full QCD
+
+### B.Sc. in Physics, *2006*
+
+**University:** University of São Paulo (USP)
+**Institute:** Physics Institute of São Carlos
+
+## Certifications
+
+### **Professional Scrum Master** --- Scrum.org, 2022
+
+Load: 20h
+Certificate: [Professional Scrum Master]( https://www.credly.com/badges/ee47dbe0-27c5-4dc4-9b09-815c48b11378/public_url )
+
+### **Responsive Web Design** --- Free Code Camp, 2020
+
+Load: 300h
+Certificate: [Responsive Web Design]( https://www.freecodecamp.org/certification/fcc306e7694-fe85-4564-b699-2965fc0ab265/responsive-web-design )
+
+### **JavaScript Algorithms and Data Structures** --- Free Code Camp, 2020
+
+Load: 300h
+Certificate: [JavaScript Algorithms and Data Structures]( https://www.freecodecamp.org/certification/fcc306e7694-fe85-4564-b699-2965fc0ab265/javascript-algorithms-and-data-structures )
+
+### **Scientific Computing with Python** --- Free Code Camp, 2020
+
+Load: 400h
+Certificate: [Scientific Computing with Python]( https://www.freecodecamp.org/certification/fcc306e7694-fe85-4564-b699-2965fc0ab265/scientific-computing-with-python-v7 )
+
+## Languages
+
+* *Portuguese*: Native
+* *English*: Fluent
+
+## Skills
+
+* *Agility*
+* *Go*
+* *Jira*
+* *PostgreSQL*
+* *Kotlin*
+* *SpringBoot*
+* *C++*
+* *Bash*
+* *Python*
+* *Object-oriented design*
+* *C*
+* *JavaScript*
+* *SML*
+* *HTML*
+* *CSS*
+* *Matlab*
+* *Design Patterns*
+* *Functional Paradigm*

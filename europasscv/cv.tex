@@ -1,0 +1,421 @@
+% !TEX encoding = UTF-8
+% !TEX program = pdflatex
+% !TEX spellcheck = en_US
+
+\documentclass[english,a4paper]{europasscv}
+\usepackage[english]{babel}
+
+\ecvname{Fernando Luz}
+
+\ecvmobile{}
+
+\ecvaddress{Vila Nova de Gaia - Portugal}
+\ecvemail{prof.fernando.luz@gmail.com}
+% \ecvhomepage{tbd}
+% \ecvgitpage{www.git.example.org}
+\ecvgithubpage{https://github.com/fluz}
+% \ecvgitlabpage{www.gitlab.com/smith}
+\ecvlinkedinpage{https://www.linkedin.com/in/f-luz/}
+% \ecvorcid[label, link]{0000-0000-0000-0000}
+% \ecvim{AOL Messenger}{katie.smith}
+% \ecvim{Google Talk}{ksmith}
+
+% \ecvgender{Female}
+% \ecvdateofbirth{1 March 1975}
+% \ecvnationality{Irish}
+
+% \ecvpicture[width=3.8cm]{picture.jpg}
+
+% \date{}
+
+\begin{document}
+  \begin{europasscv}
+
+% BEGIN COVER LETTER =============
+
+%     \thispagestyle{empty}
+%     \eclpersonalinfo
+%
+%     \ecladdressee{Contact person}{Name of organization}{Address of organization}{City}
+%
+%     \eclcitydatesubject{City}{\today}{Subject of this cover letter}
+%
+%     \eclopeningsalutation{Dear Sir}
+%     \eclmaincontent
+%     {Opening salutation.\bigskip}
+%
+%     {This is the main content.}
+%
+%     {Closing salutation.}
+%
+%     \eclclosingsalutation{Yours sincerely}
+%
+%     \eclsignature
+% %     \eclsignature[signature.jpg]
+% %     \eclsignature[signature.jpg][Dr. Katie Smith (custom signature)]
+%
+%     \pagebreak
+%     \setcounter{page}{1}
+
+
+% BEGIN CV =============
+
+  \ecvpersonalinfo
+
+  \ecvbigitem{Position}{Engineering Manager}
+
+  \ecvsection{Work experience}
+
+  
+  \ecvtitle{Apr/2024 - Present}{Engineering Lead}
+  \ecvitem{}{AUTODOC}
+  \ecvitem{}{Leading the PDP (Product Detail Page) team through a transition from
+monolithic architecture to an event-driven microservices ecosystem,
+owning technical direction and execution for a high-traffic platform.
+
+Driving architectural decisions, delivery practices, and operational
+standards to enable scalable system evolution, clearer ownership
+boundaries, and faster, more reliable deployments across several teams.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Led the decomposition of PDP into microservices, enabling independent %
+service ownership and contributing to systems handling (25k rps) while %
+establishing a consistent and unified product data layer across domains. %
+
+  
+     \item Introduced event-driven data pipelines processing around 12M Kafka %
+events/week, enabling downstream teams to consume product data %
+asynchronously and reducing cross-service coupling. %
+
+  
+     \item Maintained stable latency (100ms) during architectural transition, %
+preventing regressions in user experience while increasing system %
+modularity and deployment independence. %
+
+  
+     \item Shifted quality ownership to engineering teams and established automated %
+testing as a standard practice, increasing coverage from 25\% to 70\% %
+and reducing reliance on manual QA across the development lifecycle. %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2022 - 2024}{Engineering Manager}
+  \ecvitem{}{Talkdesk}
+  \ecvitem{}{Owned delivery and execution across a multi-product portfolio, aligning
+engineering efforts with customer value and operational reliability.
+
+Led three teams (10+ engineers), evolving team structure, ownership
+models, and execution practices to improve autonomy, alignment, and
+delivery throughput.
+
+Drove organizational improvements in quality, cross-team collaboration,
+and release readiness to enable more predictable and scalable delivery.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Drove adoption of automated testing practices across teams, increasing %
+coverage from 50\% to 80\% and reducing production defects, enabling %
+more predictable releases. %
+
+  
+     \item Established an end-to-end testing strategy within platform constraints, %
+standardizing release validation and improving stability across multiple %
+product areas. %
+
+  
+     \item Supported adoption of Agent Flows by strategic customers (e.g., EDP), %
+contributing to product validation and reinforcing the platform's %
+commercial viability. %
+
+  
+     \item Improved cross-team execution by redefining collaboration models between %
+engineering, product, and QA, reducing delivery friction and enabling %
+more efficient coordination across teams. %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2021 - 2022}{Senior Software Engineer}
+  \ecvitem{}{Talkdesk}
+  \ecvitem{}{Owned end-to-end delivery of the first production-ready Financial
+Services platform, contributing to initial market entry and establishing
+the technical foundation for future expansion.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Delivered the first version of Visual IVR for Financial Services, %
+enabling initial customer adoption and validating the product direction. %
+
+  
+     \item Reduced projected rollout costs by 75\% by replacing a third-party %
+frontend with an in-house solution, increasing control over delivery and %
+reducing long-term dependency. %
+
+  
+     \item Accelerated adoption of engineering practices by delivering internal %
+sessions on Functional Programming and performance testing (K6), %
+increasing team capability and technical alignment. %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2018 - 2021}{Senior Software Engineer}
+  \ecvitem{}{Capgemini Portugal [ASML Project]}
+  \ecvitem{}{Delivered critical software components for the next-generation ASML
+lithography platform in a high-reliability environment, balancing
+feature delivery with testability and long-term maintainability.
+
+Led the Portugal team in expanding unit testing with a
+\textbf{gtest}-based framework, improved a robotics component through a
+robust \textbf{Variant Pattern}, and helped strengthen engineering
+culture by co-founding an internal Meetup group in Capgemini PT.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Delivered the first version of the RYUN (Universal Pick and Place Robot) %
+component with \textbf{all planned features} and \textbf{100\% code %
+coverage}. %
+
+  
+     \item Accelerated the first phase of the UTTK / ATTEST migration by delivering %
+\textbf{400 tests in 10 weeks} against an initial estimate of \textbf{24 %
+weeks}. %
+
+  
+     \item Reduced migration risk in the RYAU component by auditing autotesters and %
+identifying \textbf{65\% fake tests} (tests without implementation). %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2016 - 2018}{IT Manager}
+  \ecvitem{}{Technomar Engineering}
+  \ecvitem{}{Led a team of \textbf{6 Individual Contributors} responsible for
+simulator delivery and operational stability for the \textbf{Technomar
+Maritime Simulator}, balancing product commitments with reliability and
+execution discipline.
+
+Raised engineering maturity by introducing \textbf{Scrum},
+\textbf{Test-Driven Development}, and \textbf{Git}, and by coaching the
+team toward stronger execution and code quality.
+
+Also initiated the certification plan with
+\href{https://www.dnvgl.com/}{DNV GL agency} and contributed technically
+to the core hydrodynamic numerical model where that involvement improved
+simulator fidelity and performance.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Improved simulator communication performance by \textbf{15\%} while also %
+increasing maintainability through changes to the phonon-based %
+communication channel. %
+
+  
+     \item Delivered a new simulation station end to end, enabling a simulator with %
+360-degree immersion. %
+
+  
+     \item Increased delivery transparency and work management discipline by %
+instituting \textbf{GitLab} for metrics, bugs, features, backlog, and %
+milestones. %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2008 - 2016}{Researcher / HPC Software Engineer}
+  \ecvitem{}{Numerical Offshore Tank}
+  \ecvitem{}{Developed and optimized High-Performance Computing applications in the
+TPN laboratory using C++/C, Python, MPI/sockets, and bash on Linux and
+Windows.
+
+Combined research, performance engineering, testing practices, and
+system integration to improve scalability and reliability, and
+contributed to the creation of \textbf{SMH}, a finalist for the
+\href{http://www.anp.gov.br/pesquisa-desenvolvimento-inovacao/302-premio-anp-de-inovacao-tecnologica/edicoes-anteriores/888-premio-anp-de-inovacao-tecnologica-2016}{2016
+ANP Prize Award for Technological Innovation}.
+}
+  
+  \ecvitem{Achievements:}{
+  \begin{ecvitemize}
+  
+     \item Reduced cluster resource usage by \textbf{35\%} by optimizing parallel %
+execution of the numerical solver based on my Ph.D.~research. %
+
+  
+     \item Reduced execution time by \textbf{10\%} with \textbf{OpenMP} %
+improvements and implementation of \textbf{MPI} standards in the %
+parallel version. %
+
+  
+     \item Improved repository integrity by championing a testing flow and building %
+an initial \textbf{CI} setup with CDash and CTest. %
+
+  
+  \end{ecvitemize}
+  }
+  
+  
+  \ecvtitle{2011 - 2016}{Graduate Full Professor}
+  \ecvitem{}{Paulista University}
+  \ecvitem{}{Graduate-level teaching and course execution across software engineering
+and computing topics, combining lectures, labs, assessments, and student
+mentoring.
+
+Supported hands-on learning through technical projects and clear
+evaluation criteria, helping students build practical understanding of
+software development.
+}
+  
+  
+
+  \ecvsection{Education and training}
+
+  
+  \ecvtitle{2010 - 2015}{Ph.D. in Computing Engineering}
+  \ecvitem{Title}{Methodology for the execution of parallel applications based on BSP model with heterogeneous tasks}
+  \ecvitem{}{Polytechnic School, University of São Paulo (USP) }
+  
+  \ecvtitle{2006 - 2010}{M.Sc. in Applied Physics}
+  \ecvitem{Title}{Implementation of the MILC package in the study of full QCD}
+  \ecvitem{}{Physics Institute of São Carlos, University of São Paulo (USP) }
+  
+  \ecvtitle{2001 - 2006}{B.Sc. in Physics}
+  
+  \ecvitem{}{Physics Institute of São Carlos, University of São Paulo (USP) }
+  
+
+
+  \ecvsection{Personal skills}
+  % \ecvmothertongue{English}
+  % \ecvlanguageheader
+  % \ecvlanguage{French}{C1}{C2}{B2}{C1}{C2}
+  % \ecvlanguagecertificate{Diplôme d'études en langue française (DELF) B1}
+  % \ecvlastlanguage{German}{A2}{A2}{A2}{A2}{A2}
+  % \ecvlanguagefooter
+
+  % \ecvblueitem{Communication skills}{
+  % \begin{ecvitemize}
+  %   \item team work: I have worked in various types of teams from research teams to national league hockey. For 2 years I coached my university hockey team
+  %   \item mediating skills: I work on the borders between young people, youth trainers, youth policy and researchers, for example running a 3 day workshop at CoE Symposium ``Youth Actor of Social Change'', and my continued work on youth training programmes
+  %   \item intercultural skills: I am experienced at working in a European dimension such as being a rapporteur at the CoE Budapest ``youth against violence seminar'' and working with refugees.
+  % \end{ecvitemize}
+  % }
+
+  % \ecvblueitem{Organisational / managerial skills}{
+  % \begin{ecvitemize}
+  %   \item whilst working for a Brussels based refugee NGO ``Convivial'' I organized a ``Civil Dialogue'' between refugees and civil servants at the European Commission 20th June 2002
+  %   \item during my PhD I organised a seminar series on research methods
+  % \end{ecvitemize}
+  % }
+
+  % \ecvdigitalcompetence{\ecvBasic}{\ecvIndependent}{\ecvProficient}{\ecvIndependent}{\ecvBasic}
+
+  \ecvblueitem{Technical skills}{
+  \begin{ecvitemize}
+    
+    
+    \item Agility
+    
+    
+    
+    \item Go
+    
+    
+    
+    \item Jira
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    \item C++
+    
+    
+    
+    \item Bash
+    
+    
+    
+    
+    
+    \item Object-oriented design
+    
+    
+    
+    \item C
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  \end{ecvitemize}
+  }
+
+  \ecvblueitem{Soft skills}{
+  \begin{ecvitemize}
+    
+    \item Team player
+    
+    \item Problem Solver
+    
+    \item Ownership
+    
+    \item Time management
+    
+    \item Build solutions
+    
+    \item Lead and deliver complex software systems
+    
+  \end{ecvitemize}
+  }
+
+  \ecvsection{Additional information}
+  \ecvblueitem{VOLUNTEERING}{}
+  
+    \ecvtitle{Jun 2022 - Oct 2025}{President}
+    \ecvitem{}{Associação de Pais e Encarregados de Educação da Escola Básica Manuel António Pina}
+  
+    \ecvtitle{Oct 2021 - Jun 2022}{Executive Secretary}
+    \ecvitem{}{Associação de Pais e Encarregados de Educação da Escola Básica Manuel António Pina}
+  
+
+  \end{europasscv}
+
+\end{document}
